@@ -7,6 +7,17 @@
 
 import Foundation
 
+/*
+ CRUD Functions
+ 
+ Create
+ Read
+ Update
+ Delete
+ 
+  
+ */
+
 class ListViewModel: ObservableObject {
     @Published var items: [ItemModel] =  []
     
